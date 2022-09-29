@@ -7,8 +7,12 @@
     <title>RAITE</title>
 </head>
 <body>
-    <?php
-        include_once 'includes/header.php';
-    ?>
+    <div class="outer-main-container">
+    <?php include_once 'includes/header.php';?>
+        <main class="inner-main-container">
+
+        </main>
+    </div>
+    <?php include_once 'includes/footer.php';?>
 </body>
 </html>
