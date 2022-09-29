@@ -1,0 +1,14 @@
+@use 'colorPalette' as colors;
+
+.sti-yellow-bg-color{
+    background-color: colors.$STI_Yellow;
+}
+.sti-yellow-text-color{
+    color: colors.$STI_Yellow
+}
+.sti-blue-bg-color{
+    background-color: colors.$STI_Blue;
+}
+.sti-blue-text-color{
+    color: colors.$STI_Blue;
+}

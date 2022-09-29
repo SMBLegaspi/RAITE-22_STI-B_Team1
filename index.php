@@ -7,6 +7,8 @@
     <title>RAITE</title>
 </head>
 <body>
-    
+    <?php
+        include_once 'includes/header.php';
+    ?>
 </body>
 </html>
