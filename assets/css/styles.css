@@ -1,7 +1,227 @@
+.hero-section {
+  height: 900px;
+  padding-top: 260px;
+  display: block;
+  background-image: url(/RAITE-22-STI-Balagtas-Team1/assets/img/hero-bg.png);
+  background-size: cover;
+  background-color: #f3f7f9;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-section {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  padding: 30px 50px 0;
+}
+
+.hero-text {
+  padding-top: 60px;
+}
+
+.hero-h2 {
+  color: #20509e;
+  font-size: 70px;
+  margin-bottom: 35px;
+}
+
+.hero-h4 {
+  color: #75849a;
+  font-size: 22px;
+}
+
+.hero-subsribe-form {
+  margin-top: 50px;
+  display: block;
+}
+
+.hero-subsribe-form input {
+  width: 315px;
+  height: 48px;
+  border: 1px solid #ebebeb;
+  background: #fff;
+  padding: 0 25px;
+  border-radius: 50px;
+  font-size: 16px;
+  margin-right: 8px;
+  margin-bottom: 20px;
+}
+
+.site-btn {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  border-radius: 50px;
+  min-width: 170px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.site-btn.sb-gradients {
+  padding: 17px 32px;
+  border: none;
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, right top, from(#3e33cd), to(#2ec8ac));
+  background-image: -o-linear-gradient(left, #3e33cd, #2ec8ac);
+  background-image: linear-gradient(to right, #3e33cd, #2ec8ac);
+}
+
+.laptop-image {
+  width: auto;
+  max-width: 100%;
+  top: 70px;
+}
+
+.spad {
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+
+.about-text h2 {
+  font-size: 40px;
+  color: #20509e;
+  margin-bottom: 25px;
+}
+
+.about-text h5 {
+  color: #20509e;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  color: #75849a;
+  font-size: 18px;
+}
+
+.section-title {
+  margin-bottom: 60px;
+}
+
+.section-title h2 {
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+
+.section-title p {
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.feature-section.gradient-bg {
+  background-image: -webkit-gradient(linear, left top, right top, from(#3e33cd), to(#2ec8ac));
+  background-image: -o-linear-gradient(left, #3e33cd, #2ec8ac);
+  background-image: linear-gradient(to right, #3e33cd, #2ec8ac);
+}
+
+.feature {
+  margin-bottom: 45px;
+}
+
+.feature i {
+  font-size: 48px;
+  float: left;
+  padding-top: 10px;
+}
+
+.feature .feature-content {
+  padding-left: 70px;
+}
+
+.feature .feature-content h4 {
+  margin-bottom: 15px;
+}
+
+.feature .readmore {
+  text-decoration: underline;
+  line-height: 1.2;
+}
+
+.text-white a {
+  color: #fff;
+}
+
+.footer-widget p {
+  margin-bottom: 20px;
+}
+
+.footer-widget span {
+  color: #acb9cc;
+}
+
+.footer-widget .widget-title {
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #20509e;
+}
+
+.footer-widget ul {
+  list-style: none;
+}
+
+.footer-widget ul a {
+  font-size: 16px;
+  color: #75849a;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.social a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center;
+  padding-top: 7px;
+  font-size: 18px;
+}
+
+.social .facebook {
+  background: #4b6cd0;
+}
+
+.social .google {
+  background: #f03b3b;
+}
+
+.social .instagram {
+  background: #bb8950;
+}
+
+.social .twitter {
+  background: #49a7f3;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ebebeb;
+  padding: 30px 0;
+}
+
+.footer-nav {
+  list-style: none;
+}
+
+.footer-nav li {
+  display: inline-block;
+}
+
+.footer-nav li a {
+  color: #75849a;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -69,4 +289,8 @@ ul {
 
 .gutter-x-8 > * + * {
   margin-left: 8px;
+}
+
+.all-child-mb-8 > * {
+  margin-bottom: 8px;
 }

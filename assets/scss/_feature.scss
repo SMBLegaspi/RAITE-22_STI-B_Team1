@@ -1,0 +1,46 @@
+.section-title {
+    margin-bottom: 60px;
+}
+
+.section-title h2 {
+    margin-bottom: 20px;
+        font-size: 48px;
+}
+
+.section-title p {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.feature-section.gradient-bg {
+    background-image: linear-gradient(to right, #3e33cd, #2ec8ac);
+}
+
+.feature {
+    margin-bottom: 45px;
+}
+
+.feature i {
+    font-size: 48px;
+    float: left;
+    padding-top: 10px;
+}
+
+.feature .feature-content {
+    padding-left: 70px;
+}
+
+.feature .feature-content h4 {
+    margin-bottom: 15px;
+}
+
+.feature .readmore {
+    text-decoration: underline;
+    line-height: 1.2;
+
+}
+
+.text-white a {
+    color: #fff;
+}
